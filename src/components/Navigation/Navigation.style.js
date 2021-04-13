@@ -1,6 +1,7 @@
 import styled from 'styled-components'
 
 export const StyledNavigation = styled.nav`
+  background-color: transparent !important;
   & ul {
     li {
       display: inline;
@@ -10,10 +11,8 @@ export const StyledNavigation = styled.nav`
         text-decoration: none;
         color: var(--text-base);
         cursor: pointer;
-        /* color: var(--hotels-primary); */
 
         &:hover {
-          /* font-weight: 600; */
           color: var(--primary);
         }
       }

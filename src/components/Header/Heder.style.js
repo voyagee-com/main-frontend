@@ -9,7 +9,7 @@ export const StyledHeader = styled.div`
 
   & .container {
     display: grid;
-    grid-template-columns: 15% 65% 20%;
+    grid-template-columns: 20% 60% 20%;
     align-items: center;
   }
 `
@@ -37,14 +37,5 @@ export const StyledSign = styled.ul`
         color: var(--primary)
       }
     }
-
-    /* & a {
-      padding: 12px 24px;
-      text-align: center;
-      text-transform: uppercase;
-      border: medium solid var(--primary);
-      background-color: transparent;
-      border-radius: 9px;
-    } */
   }
 `
