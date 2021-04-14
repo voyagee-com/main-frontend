@@ -6,24 +6,24 @@ import logo from '../../images/voyage-logo.jpg'
 
 const Header = () => {
   return (
-    <BgHeader>
-    <StyledHelp>
-      <div className="container">
-      help
-      </div>
-    </StyledHelp>
-    <StyledHeader>
-      <div className="container">
-        <img src={logo} alt="Logotipo Voyage" width="140px" />
-        <Navigation />
-        <StyledSign>
-          <li><a href="">Sign Up</a></li>
-          <li><a href="">Login</a></li>
-        </StyledSign>
-        {/*<Parcel config={() => import('@voyage/compare-app')} />*/}
-      </div>
-    </StyledHeader>
-    </BgHeader>
+    <div>
+      <StyledHelp>
+        <div className="container">
+        help
+        </div>
+      </StyledHelp>
+      <StyledHeader>
+        <div className="container">
+          <img src={logo} alt="Logotipo Voyage" width="140px" />
+          <Navigation />
+          <StyledSign>
+            <li><a href="">Sign Up</a></li>
+            <li><a href="">Login</a></li>
+          </StyledSign>
+          {/*<Parcel config={() => import('@voyage/compare-app')} />*/}
+        </div>
+      </StyledHeader>
+    </div>
   )
 }
 

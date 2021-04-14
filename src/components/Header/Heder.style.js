@@ -1,6 +1,8 @@
 import styled from 'styled-components'
 
-export const BgHeader = styled.div``
+export const BgHeader = styled.div`
+  background-color: var(--lightest);
+`
 
 export const StyledHeader = styled.div`
   padding-top: 32px;
